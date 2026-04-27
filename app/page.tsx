@@ -2,7 +2,7 @@
 import Image from "next/image";
 import NavbarClient from "./components/NavbarClient";
 import hero2 from "@/public/hero/hero2.jpeg";
-import hero2m from "@/public/hero/hero2m.jpeg";
+import hero2m from "@/public/hero/hero2m.jpeg";   
 import Link from "next/link";
 import dress1 from "@/public/catalog/weddingdress/dress1.jpg"
 import men1 from "@/public/catalog/menswear/man1.jpg"
@@ -73,8 +73,8 @@ const handleSubmit = async () => {
     <div>
       <NavbarClient />
       <section className="h-screen w-full flex items-center pt-16">
-        <Image src={hero2} alt="hero2" fill className="hidden lg:flex object-cover -z-10 inset-0" />
-        <Image src={hero2m} alt="hero2m" fill className="lg:hidden object-cover -z-10 inset-0" />
+        <Image src="/hero/hero2.jpeg" alt="hero2" fill className="hidden lg:flex object-cover -z-10 inset-0" />
+        <Image src="/hero/hero2m.jpeg" alt="hero2m" fill className="lg:hidden object-cover -z-10 inset-0" />
         <div className="absolute -z-10 inset-0 bg-linear-to-b from-black/10 via-black/35 to-black/80" />
         <div className="container mx-auto px-4">
           <div className="flex items-center text-center justify-center mb-8">
