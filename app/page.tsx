@@ -1,8 +1,6 @@
 "use client"
 import Image from "next/image";
 import NavbarClient from "./components/NavbarClient";
-import hero2 from "@/public/hero/hero2.jpeg";
-import hero2m from "@/public/hero/hero2m.jpeg";   
 import Link from "next/link";
 import dress1 from "@/public/catalog/weddingdress/dress1.jpg"
 import men1 from "@/public/catalog/menswear/man1.jpg"
